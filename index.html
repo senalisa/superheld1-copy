@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superheld 2</title>
+    <style>
+        * {
+            padding: 0;
+            margin-top: 10px;
+            margin-left: -1px;
+            background: #502539;
+        }
+        body {
+            overflow: hidden;
+            position: relative;
+        }
+
+        #nul {
+            position: absolute;
+            margin-top: -10px;
+            margin-left: 55px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            color: white;
+        }
+
+        #honderd {
+            position: absolute;
+            margin-top: -10px;
+            margin-left: 240px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            color: white;
+        }
+
+        #wrapper h1 {
+            position: absolute;
+            font-size: 50px;
+            margin-left: 350px;
+            margin-top: -2px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+
+    </style>
+    <script src="./pixi/pixi.min.js"></script>
+    <script type="text/javascript" src="health-bar.js"></script>
+    <script defer type="module" src="./app.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <h2 id="nul">0</h2>
+    <h2 id="honderd">100</h2>
+    <h1>SUPERHELD 1</h1>
+    <canvas id="canvas"></canvas>
+</div>
+</body>
+</html>
